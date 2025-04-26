@@ -14,7 +14,7 @@ func check(e error) {
     }
 }
 
-func main(){
+func Main(){
 	err := os.Mkdir("subdir", 0755)
     check(err)
 }
